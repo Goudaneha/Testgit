@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Welcome to E-Commerce Website",
+        "description": "",
+        "id": "welcome-to-online-shopping;welcome-to-e-commerce-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50077350400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "StepDefinition.user_is_on_Registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7264661700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Signin \u003c\"signin\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_clicks_on_Signin(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10939640300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has to provide \"apples77@gamil.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apples77@gamil.com",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.user_has_to_provide(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4298695500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on \u003c\"createacc\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createacc",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6084498900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Smith",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinition.user_enters(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36021700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "name \"Tom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDefinition.name(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569695000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicks on \u003c\"Reg\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reg",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.clicks_on(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Welcome to online shopping",
+    "description": "",
+    "id": "welcome-to-online-shopping",
+    "keyword": "Feature",
+    "uri": "C:/Users/nehaashokj/TestJenkins/src/test/java/E-Commerce.feature"
+  }
+]
